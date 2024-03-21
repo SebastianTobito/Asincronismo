@@ -1,0 +1,25 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "curso de asincronismo de platzi ",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/callback/callenge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianTobito/Asincronismo.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "sebastian tobito sebastiantobito@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SebastianTobito/Asincronismo/issues"
+  },
+  "homepage": "https://github.com/SebastianTobito/Asincronismo#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
