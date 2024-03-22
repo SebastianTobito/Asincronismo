@@ -1,0 +1,108 @@
+
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="./assets/main.js"></script>
+</head>
+
+<body>
+  <div class="relative bg-white overflow-hidden">
+    <div class="max-w-7xl mx-auto">
+      <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+        <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
+          fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+          <polygon points="50,0 100,0 50,100 0,100" />
+        </svg>
+        <div>
+          <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
+            <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
+              <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
+                <div class="flex items-center justify-between w-full md:w-auto">
+                  <a href="#">
+                    <span class="sr-only">Title</span>
+                    <img class="h-8 w-auto sm:h-10" src="data:image/png;base64,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">
+                  </a>
+                </div>
+              </div>
+              <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+                <a href="#" class="font-medium text-gray-500 hover:text-gray-900">About</a>
+                <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Projects</a>
+                <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Contact</a>
+              </div>
+            </nav>
+          </div>
+        </div>
+
+        <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+          <div class="sm:text-center lg:text-left">
+            <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+              <span class="block xl:inline">Cristiano Ronaldo</span>
+              <span class="block text-indigo-600 xl:inline">Make your dreams happen</span>
+            </h1>
+            <p
+              class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+              5 Uefa Campions League
+              5 Ballon D'Oro
+            </p>
+          </div>
+        </main>
+      </div>
+    </div>
+    <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+      <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+        src="https://as.com/futbol/imagenes/2007/12/29/mas_futbol/1198913207_740215_0000000001_noticia_grande.jpg" alt="">
+    </div>
+  </div>
+  <div class="bg-white">
+    <div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+      <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">Last YouTube Videos</h2>
+      <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8" id="content">
+        <!-- content -->
+         
+      </div>
+    </div>
+  </div>
+  <div class="bg-gray-50" style="background-image: url(https://w0.peakpx.com/wallpaper/152/871/HD-wallpaper-cr7-2018-cristiano-juventus-logo-logos-madrid-portugal-ronaldo.jpg);">
+    
+    <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
+      <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+        <span class="block">Contact</span>
+        <span class="block text-indigo-600">keep Going.</span>
+      </h2>
+      <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48"
+          style=" fill:#000000;">
+          <linearGradient id="awSgIinfw5_FS5MLHI~A9a_yGcWL8copNNQ_gr1" x1="6.228" x2="42.077" y1="4.896" y2="43.432"
+            gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#0d61a9"></stop>
+            <stop offset="1" stop-color="#16528c"></stop>
+          </linearGradient>
+          <path fill="url(#awSgIinfw5_FS5MLHI~A9a_yGcWL8copNNQ_gr1)"
+            d="M42,40c0,1.105-0.895,2-2,2H8c-1.105,0-2-0.895-2-2V8c0-1.105,0.895-2,2-2h32	c1.105,0,2,0.895,2,2V40z">
+          </path>
+          <path
+            d="M25,38V27h-4v-6h4v-2.138c0-5.042,2.666-7.818,7.505-7.818c1.995,0,3.077,0.14,3.598,0.208	l0.858,0.111L37,12.224L37,17h-3.635C32.237,17,32,18.378,32,19.535V21h4.723l-0.928,6H32v11H25z"
+            opacity=".05"></path>
+          <path
+            d="M25.5,37.5v-11h-4v-5h4v-2.638c0-4.788,2.422-7.318,7.005-7.318c1.971,0,3.03,0.138,3.54,0.204	l0.436,0.057l0.02,0.442V16.5h-3.135c-1.623,0-1.865,1.901-1.865,3.035V21.5h4.64l-0.773,5H31.5v11H25.5z"
+            opacity=".07"></path>
+          <path fill="#fff"
+            d="M33.365,16H36v-3.754c-0.492-0.064-1.531-0.203-3.495-0.203c-4.101,0-6.505,2.08-6.505,6.819V22h-4v4	h4v11h5V26h3.938l0.618-4H31v-2.465C31,17.661,31.612,16,33.365,16z">
+          </path>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48"
+          style=" fill:#000000;">
+          <path fill="#03A9F4"
+            d="M42,12.429c-1.323,0.586-2.746,0.977-4.247,1.162c1.526-0.906,2.7-2.351,3.251-4.058c-1.428,0.837-3.01,1.452-4.693,1.776C34.967,9.884,33.05,9,30.926,9c-4.08,0-7.387,3.278-7.387,7.32c0,0.572,0.067,1.129,0.193,1.67c-6.138-0.308-11.582-3.226-15.224-7.654c-0.64,1.082-1,2.349-1,3.686c0,2.541,1.301,4.778,3.285,6.096c-1.211-0.037-2.351-0.374-3.349-0.914c0,0.022,0,0.055,0,0.086c0,3.551,2.547,6.508,5.923,7.181c-0.617,0.169-1.269,0.263-1.941,0.263c-0.477,0-0.942-0.054-1.392-0.135c0.94,2.902,3.667,5.023,6.898,5.086c-2.528,1.96-5.712,3.134-9.174,3.134c-0.598,0-1.183-0.034-1.761-0.104C9.268,36.786,13.152,38,17.321,38c13.585,0,21.017-11.156,21.017-20.834c0-0.317-0.01-0.633-0.025-0.945C39.763,15.197,41.013,13.905,42,12.429">
+          </path>
+        </svg>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
